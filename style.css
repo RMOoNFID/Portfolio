@@ -284,7 +284,13 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 5rem;
+  margin:20px;
+}
+
+.about-pic1{
+  border:#353535 5px solid;
+  border-radius: 50%;
 }
 
 .arrow {
@@ -359,6 +365,14 @@ article .icon {
   position: relative;
 }
 
+.status_in_progress {
+  color:green;
+}
+
+.status_coming_soon {
+  color:red;
+}
+
 .color-container{
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
@@ -429,4 +443,36 @@ footer{
 
 footer p{
     text-align: center;
+}
+
+/*Special Animations*/
+
+.tracking-out-expand {
+	-webkit-animation: tracking-out-expand 2s linear reverse both;
+	        animation: tracking-out-expand 2s linear reverse both;
+}
+
+ @-webkit-keyframes tracking-out-expand {
+  0% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  100% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+}
+@keyframes tracking-out-expand {
+  0% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  100% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
 }
