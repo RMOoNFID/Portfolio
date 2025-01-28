@@ -209,8 +209,22 @@ section {
 /* ICONS */
 
 .icon {
+  justify-content: center;
   cursor: pointer;
   height: 2rem;
+}
+
+.iconlang{
+  height: 10vh;
+  align-items: center;
+}
+
+/* description level ICONS */
+
+#experience p {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 /* BUTTONS */
@@ -379,9 +393,8 @@ article .icon {
 }
 
 .project-img{
-    border-radius: 2rem;
-    width:90%;
-    height:90%
+    width:100%;
+    height:50%;
 }
 
 .project-title {

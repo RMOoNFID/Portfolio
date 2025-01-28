@@ -100,4 +100,12 @@
   .text-container {
     text-align: justify;
   }
+
+  .iconlang{
+    height: 20vh;
+    align-items: center;
+  }
+  .about-pic1.hidden {
+    display: none;
+  }
 }
